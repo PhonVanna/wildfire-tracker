@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Map from './components/Map'
 import Loader from './components/Loader'
-import './App.css'
 
 function App() {
   const [eventData, setEventData] = useState([])
